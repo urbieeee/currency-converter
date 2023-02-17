@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(79, 71, 71);
+    font-family: 'SegoQe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px 20px;
+    background-image: url("../images/tlokantor.jpg");
+    resize: both;
+    overflow: auto;
+    background-position: center;
+    background-attachment: local;
+}
+
+.form {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid hwb(33 40% 35%);
+    background-color: hsl(33, 100%, 88%);
+}
+
+.form__fieldset {
+    border: 2px solid hwb(33 40% 35%);
+}
+
+.label_input {
+    padding: 5px;
+    margin: 5px auto;
+    max-width: 300px;
+}
+
+.label_select {
+    padding: 3px;
+    margin: 1px auto;
+    max-width: 300px;
+}
+
+.footer {
+    margin: 10px auto;
+    padding: 2px;
+}
+
+.footer__header {
+    margin: 5px auto;
+}

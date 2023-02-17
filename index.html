@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/submit.css" rel="stylesheet">
+    <link rel="icon" href="images/ikonkakantoru.jpg">
+    <script defer src="js/script.js"></script>
+    <title>Kantor</title>
+</head>
+
+<body class="body">
+    <h1 class="header">Przelicznik walut</h1>
+    <form class="js-form form">
+        <fieldset class="form__fieldset">
+            <p>
+                <label>
+                    Kwota w PLN*
+                    <input class="js-input label_input" placeholder="Wpisz kwote w pln" type="number" name="PLN"
+                        min="0.05" step="0.01" required autofocus>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <select class="js-currency label_select">
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>JPY</option>
+                        <option>CAD</option>
+                        <option>CHF</option>
+                        <option>CNH</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+
+            <p class="js-result"></p>
+        </fieldset>
+        <footer class="footer">
+            <p class="footer__header">Kursy aktualne z dniem 15.02.2023</p>
+            <p>
+                <strong>02:37 am</strong>
+            </p>
+        </footer>
+    </form>
+</body>
+
+</html>
