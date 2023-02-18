@@ -11,7 +11,7 @@
 [CODE-TEST](https://urbieeee.github.io/currency-converter/)
 
 
-![obrazek](https://images.all-free-download.com/images/graphiclarge/money_514928.jpg)
+![obrazek](http://9to5google.com/wp-content/uploads/sites/4/2013/09/google1.png)
 
 
 
