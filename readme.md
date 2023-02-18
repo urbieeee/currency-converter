@@ -10,8 +10,6 @@
 
 [CODE-TEST](https://urbieeee.github.io/currency-converter/)
 
-[instagram](https://www.instagram.com/n0turbann/)
-
 
 ![obrazek](https://images.all-free-download.com/images/graphiclarge/money_514928.jpg)
 
